@@ -1,0 +1,20 @@
+{
+  "name": "webpack-lib",
+  "version": "1.0.0",
+  "description": "webpack打包一个组件库",
+  "main": "./dist/library.js",
+  "module": "./src/index.js",
+  "repository": "https://github.com/kurongdashi/webpack-lib.git",
+  "author": "lp123 <1970664102@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
