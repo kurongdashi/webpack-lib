@@ -1,6 +1,6 @@
 {
-  "name": "webpack-lib-lp1688",
-  "version": "1.0.0",
+  "name": "webpack-lib-lping",
+  "version": "1.0.2",
   "description": "webpack打包一个组件库",
   "main": "./dist/library.js",
   "module": "./dist/index.js",
@@ -8,6 +8,11 @@
     "type": "git",
     "url": "git+https://github.com/kurongdashi/webpack-lib.git"
   },
+  "keywords": [
+    "组件库打包",
+    "library",
+    "type"
+  ],
   "author": "lp123 <1970664102@qq.com>",
   "license": "MIT",
   "scripts": {
