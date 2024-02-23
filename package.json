@@ -1,10 +1,13 @@
 {
-  "name": "webpack-lib",
+  "name": "webpack-lib-lp1688",
   "version": "1.0.0",
   "description": "webpack打包一个组件库",
   "main": "./dist/library.js",
-  "module": "./src/index.js",
-  "repository": "https://github.com/kurongdashi/webpack-lib.git",
+  "module": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurongdashi/webpack-lib.git"
+  },
   "author": "lp123 <1970664102@qq.com>",
   "license": "MIT",
   "scripts": {
